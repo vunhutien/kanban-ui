@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+    }
+
+    /* Works on Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+        width: 5px;
+        border-radius:5px;
+    }
+
+    *::-webkit-scrollbar-track {
+        @apply bg-white
+    }
+
+    *::-webkit-scrollbar-thumb {
+        @apply bg-gradient-to-b from-blue-500 to-red-400 rounded;
+    }
+}
