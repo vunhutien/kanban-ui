@@ -1,6 +1,6 @@
 # Watch Youtube here: https://youtu.be/ERXS6CROWR4
 
-This is source code for my Yourtube video on the way I created a Kanban app UI from sketch. I used NextJS and TailwindCSS.
+This is source code for my Youtube video on how I created a Kanban app UI from sketch. I used NextJS and TailwindCSS.
 
 ## Preview
 
